@@ -9,5 +9,26 @@
     <h1>Cambio general</h1>
     <h2>cambio solo a la rama</h2>
     <h3>cambio en la rama "ahora si deberitas"</h3>
+    <p>n Git, las ramas (o "branches" en inglés) son una herramienta esencial para el manejo del desarrollo de software. Permiten trabajar en diferentes líneas de desarrollo dentro del mismo repositorio. Aquí te explico algunos conceptos clave sobre las ramas:
+
+        Rama Principal: Es la rama por defecto en muchos repositorios y generalmente se llama main o master. Esta rama contiene la versión estable y en producción del código.
+        
+        Ramas de Desarrollo: Se crean para desarrollar nuevas características, corregir errores o experimentar sin afectar la rama principal. Esto permite que el trabajo en progreso no interfiera con el código estable.
+        
+        Creación de Ramas: Puedes crear una nueva rama usando el comando git branch <nombre-de-la-rama>. Para cambiar a la nueva rama, usarías git checkout <nombre-de-la-rama>, o en versiones más recientes de Git, puedes hacer esto en un solo paso con git switch -c <nombre-de-la-rama>.
+        
+        Fusión (Merge): Una vez que hayas terminado de trabajar en una rama, puedes fusionarla con otra (generalmente con la rama principal) usando git merge <nombre-de-la-rama>. Esto integra los cambios de la rama de desarrollo en la rama de destino.
+        
+        Rebase: Es otra forma de integrar cambios, pero en lugar de hacer una fusión, reescribe la base de la rama para aplicar los cambios sobre el estado más reciente de la rama de destino. Se usa con el comando git rebase <rama-base>.
+        
+        Ramas Remotas: Son ramas que existen en un repositorio remoto (como GitHub o GitLab) y pueden ser accedidas o modificadas por otros colaboradores. Puedes ver las ramas remotas con git branch -r y trabajar con ellas usando comandos como git fetch, git pull, y git push.
+        
+        Eliminación de Ramas: Una vez que una rama ya no es necesaria, puedes eliminarla con git branch -d <nombre-de-la-rama> para eliminarla localmente, o git push origin --delete <nombre-de-la-rama> para eliminarla en el repositorio remoto.
+        
+        Las ramas facilitan la colaboración en proyectos de software, permitiendo que múltiples desarrolladores trabajen en paralelo sin interferir en el trabajo de los demás y ayudando a mantener el código base organizado y limpio.
+        
+        
+        
+        </p>
 </body>
 </html>
